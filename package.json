@@ -1,0 +1,23 @@
+{
+  "name": "web-project-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyennd29/Web-project-frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nguyennd29/Web-project-frontend/issues"
+  },
+  "homepage": "https://github.com/nguyennd29/Web-project-frontend#readme",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "jquery-validation": "^1.18.0"
+  }
+}

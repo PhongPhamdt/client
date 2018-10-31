@@ -2,7 +2,7 @@ $(document).ready(function () {
     $('#log_out').on("click",function (e) {
         e.preventDefault();
         $.ajax({
-            url: 'http://localhost:6969/api/auth/logout',
+            url: 'https://svflirt.herokuapp.com/api/auth/logout'||'http://localhost:6969/api/auth/logout',
             method: 'DELETE',
             // data: {username: name, password: pass},
             success: function () {
@@ -21,7 +21,7 @@ $(document).ready(function () {
         let mailx = $('#mail').val();
         let mailContentx = $('#mail_content').val();
         $.ajax({
-            url: 'http://localhost:6969/api/sending',
+            url: 'https://svflirt.herokuapp.com/api/sending'||'http://localhost:6969/api/sending',
             method: 'POST',
             data: {mail: mailx,mailContent: mailContentx},
             success: function() {

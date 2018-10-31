@@ -4,7 +4,7 @@ $(document).ready(function() {
 		const city_name = $('#keyword').val();
 		 // $('#root').empty();
 		$.ajax({
-			url:`http://api.apixu.com/v1/forecast.json?key=e51fc4c9af264ce69be71045182010&q=${city_name}&days=7`,
+			url:`https://api.apixu.com/v1/forecast.json?key=e51fc4c9af264ce69be71045182010&q=${city_name}&days=7`,
 			method: 'GET',
 			success: function(data) {
 				// var img = 'http' + data.current.condition.icon; 

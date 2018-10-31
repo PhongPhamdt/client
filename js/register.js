@@ -56,7 +56,7 @@ $(document).ready(function () {
         var name = $('#username').val();
         var pass = $('#password').val();
         $.ajax({
-            url: 'http://localhost:6969/api/user',
+            url: 'https://svflirt.herokuapp.com/api/user'||'http://localhost:6969/api/user',
             method: 'POST',
             data: {username: name, password: pass},
             success: function () {
